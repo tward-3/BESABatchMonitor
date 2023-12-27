@@ -10,7 +10,7 @@ msiexec.exe /package PowerShell-7.4.0-win-x64.msi /quiet ADD_EXPLORER_CONTEXT_ME
 
 Now, save the "BESABatchMonitor" script to the directory of your choice, and edit the code to add your profile name.
 
-Start your batch in BESA (YOU MUST DO THIS FIRST), then in the command line, navigate to the directory the script is saved to, and run the following line:
+Start your batch in BESA (***YOU MUST DO THIS FIRST***), then in the command line, navigate to the directory the script is saved to, and run the following line:
 
 ```
 pwsh BESABatchMonitor.ps1
