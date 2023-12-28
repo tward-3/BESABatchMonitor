@@ -8,7 +8,11 @@ Next, you will need to install PowerShell 7. To do this, run this command in the
 msiexec.exe /package PowerShell-7.4.0-win-x64.msi /quiet ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1 ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1 USE_MU=1 ENABLE_MU=1 ADD_PATH=1
 ```
 
-Open PowerShell 7, and install and import the AWS SNS module:
+Open PowerShell 7, and install and import the AWS modules:
+
+```
+Install-Module -Name AWS.Tools.Installer
+```
 
 ```
 Install-AWSToolsModule -Name AWS.Tools.SimpleNotificationService -Force -Scope CurrentUser
