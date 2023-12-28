@@ -32,4 +32,4 @@ Start your batch in BESA ***(YOU MUST DO THIS FIRST)***, then in the command lin
 pwsh BESABatchMonitor.ps1
 ```
 
-The script will then check your log file every 10 seconds. Once the Batch.txt is updated, which means that the batch has stopped either due to a crash or the batch was finished, the AWS SNS will send an email notifying you that your batch has stopped.
+The script will then check your log file every 10 seconds. Once the Batch.txt is updated (which means that the batch has stopped either due to a crash or because it was successfully completed), the AWS SNS will send an email notifying you that your batch has stopped.
