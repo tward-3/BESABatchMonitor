@@ -28,7 +28,7 @@ Next, you will need to set your credentials.
 Set-AWSCredential -AccessKey YOUR_ACCESS_KEY_HERE -SecretKey YOUR_SECRET_KEY_HERE -StoreAs CHOOSE_A_PROFILE_NAME
 ```
 
-Now, save the "BESABatchMonitor" script to the directory of your choice, and edit the code in Windows PowerShell ISE to add your profile name.
+Now, save the "BESABatchMonitor" script to the directory of your choice, and edit the code in Windows PowerShell ISE to add your profile name, topic ARN, region, and directory.
 
 Start your batch in BESA ***(YOU MUST DO THIS FIRST)***, then in the command line, navigate to the directory the script is saved to, and run the following line:
 
