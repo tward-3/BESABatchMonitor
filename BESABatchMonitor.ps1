@@ -20,8 +20,6 @@ while($true) {
     Write-Host "Looking for file"
     $files = Get-ChildItem -Path $directoryPath -Filter $fileName | Where-Object { $_.LastWriteTime -gt $startTime }
 
-    Write-Host $files
-
     if ($files) {
         # File is created after the start time
         Write-Host "File $fileName created. Sending SNS notification..."
