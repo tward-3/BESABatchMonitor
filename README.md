@@ -1,4 +1,3 @@
-
 ![besabatchmonitor_logo](https://github.com/tward-3/BESABatchMonitor/assets/59423939/7a7c39fe-8bdd-45c1-b057-398b63a6d97e)
 
 # BESABatchMonitor
