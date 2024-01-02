@@ -1,9 +1,9 @@
 # BESABatchMonitor
-Monitors the Batch.txt logfile for monitoring progress of batches. When the batch stops (from crashing or completion), Amazon AWS SNS will send an email notification.
+Monitors the Batch.txt logfile for monitoring progress of batches. When the batch stops (from crashing or completion), Amazon Web Services (AWS) Simple Notification Service (SNS) will send an email notification.
 
 
 ## Step 1- Set up AWS User account
-First, you will need an AWS User with Publishing, SNSRole, SNSReadOnlyAccess, and SNSFullAccess permissions. Contact Thomas (thomas.ward@boystown.org) for these.
+First, you will need an AWS User with Publishing, SNSRole, SNSReadOnlyAccess, and SNSFullAccess permissions. Contact Thomas (thomas.ward@boystown.org) to get this set up.
 
 ## Step 2- Install PowerShell7
 Next, you will need to install PowerShell 7. To do this, run this command in the command line:
