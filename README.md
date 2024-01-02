@@ -3,7 +3,7 @@ Monitors the Batch.txt logfile for monitoring progress of batches. When the batc
 
 
 ## Step 1- Set up AWS User account
-First, you will need an AWS User with Publishing, SNSRole, SNSReadOnlyAccess, and SNSFullAccess permissions. Contact Thomas (thomas.ward@boystown.org) to get this set up.
+First, you will need an AWS User with Publishing, SNSRole, SNSReadOnlyAccess, and SNSFullAccess permissions. SNS Topic Access Policy also needs to be updated. Contact Thomas (thomas.ward@boystown.org) to get this set up.
 
 ## Step 2- Install PowerShell7
 Next, you will need to install PowerShell 7. To do this, run this command in the command line:
@@ -28,7 +28,7 @@ Import-Module -Name AWS.Tools.SimpleNotificationService
 ```
 
 ## Step 4- Set credentials
-Next, you will need to set your credentials. 
+Next, you will need to set your credentials. You should only need to do this once.
 
 ```
 Set-AWSCredential -AccessKey YOUR_ACCESS_KEY_HERE -SecretKey YOUR_SECRET_KEY_HERE -StoreAs CHOOSE_A_PROFILE_NAME
