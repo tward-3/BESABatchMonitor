@@ -3,7 +3,7 @@ Monitors the Batch.txt logfile for monitoring progress of batches. When the batc
 
 
 ## Step 1- Set up AWS User account
-First, you will need an AWS User with the correct permissions. SNS Topic Access Policy also needs to be updated. Contact Thomas (thomas.ward@boystown.org) to get this set up.
+First, you will need an AWS User with the correct permissions and Access Policy. Contact Thomas (thomas.ward@boystown.org) to get this set up, **don't make this on your own.**
 
 ## Step 2- Install PowerShell7
 Next, you will need to install PowerShell 7. To do this, run this command in the command line:
