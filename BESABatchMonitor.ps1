@@ -14,6 +14,9 @@ $fileName = "Batch.txt"
 # Specify the start time for monitoring (adjust as needed)
 $startTime = Get-Date 
 
+# Set message subject
+$messageSubject = "BESABatchMonitor Notification!"
+
 # Start monitoring the directory for file creation
 while($true) {
     
@@ -26,8 +29,8 @@ while($true) {
         
         # Send SNS notification
         foreach ($file in $files) {
-            $message = "File $fileName was updated at $($file.LastWriteTime). Check to see if it crashed."
-            Publish-SNSMessage -TopicArn $topicARN -Message $message -Region $region
+            $messageBody = "File $fileName was updated at $($file.LastWriteTime). Check to see if it crashed."
+            Publish-SNSMessage -TopicArn $topicARN -Subject $messageSubject -Message $messageBody -Region $region
         }
         
         break  # Exit the loop after sending notification for the first file found
