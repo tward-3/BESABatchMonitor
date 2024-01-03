@@ -1,4 +1,4 @@
-![besabatchmonitor_logo](https://github.com/tward-3/BESABatchMonitor/assets/59423939/7a7c39fe-8bdd-45c1-b057-398b63a6d97e)
+![BESABatchMonitor_Logo](https://github.com/tward-3/BESABatchMonitor/assets/59423939/6dea59cd-d13e-40b7-8682-8b3d210642c1)
 # 
 Monitors the Batch.txt logfile for monitoring progress of batches. When the batch stops (from crashing or completion), Amazon Web Services (AWS) Simple Notification Service (SNS) will send an email notification.
 
