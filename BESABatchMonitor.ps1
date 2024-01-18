@@ -3,7 +3,7 @@ $region = " "
 $topicARN = " "
 
 #Set credentials
-Set-AWSCredential -ProfileName YOUR PROFILE NAME HERE
+Set-AWSCredential -ProfileName " "
 
 # Set the directory to monitor
 $directoryPath = " "
