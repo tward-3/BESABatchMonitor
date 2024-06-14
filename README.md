@@ -7,7 +7,7 @@ This script will look for updates to the Batch.txt logfile for monitoring the pr
 First, you will need an AWS User with the correct permissions and Access Policy. Contact Thomas (thomas.ward@boystown.org) to get this set up, **don't make this on your own.**
 
 ## Step 2- Install PowerShell7
-Next, you will need to install PowerShell 7. To do this, run this command in the **command prompt**:
+Next, you will need to install **PowerShell 7**. To do this, run this command in the **command prompt**:
 
 ```
 winget install --id Microsoft.Powershell --source winget
