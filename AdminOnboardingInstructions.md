@@ -60,35 +60,35 @@
 > ## Steps to create an Email Subscription
 > This will need to be done for each user. This gives them a unique email subscription, so that they only receive messages from their own BESABatchMonitor, and not the other users.
 >
->### Step 1- Create a Topic
->- Navigate to the "Topics" tab
->- Click "Create topic"
->  - Type: **Standard**
->  - Name: "JohnSmith_BESABatchMonitor"
->  - Under "Access Policy" in the JSON preview, make sure these are listed under "Action:"
+> ### Step 1- Create a Topic
+> - Navigate to the "Topics" tab
+> - Click "Create topic"
+>   - Type: **Standard**
+>   - Name: "JohnSmith_BESABatchMonitor"
+>   - Under "Access Policy" in the JSON preview, make sure these are listed under "Action:"
 >  
->    ```
->    "SNS:Publish",
->    "SNS:RemovePermission",
->    "SNS:SetTopicAttributes",
->    "SNS:DeleteTopic",
->    "SNS:ListSubscriptionsByTopic",
->    "SNS:GetTopicAttributes",
->    "SNS:AddPermission",
->    "SNS:Subscribe"
->    ```
+>     ```
+>     "SNS:Publish",
+>     "SNS:RemovePermission",
+>     "SNS:SetTopicAttributes",
+>     "SNS:DeleteTopic",
+>     "SNS:ListSubscriptionsByTopic",
+>     "SNS:GetTopicAttributes",
+>     "SNS:AddPermission",
+>     "SNS:Subscribe"
+>     ```
 >    
->  - Publishers: **Only the topic owner**
->  - Subscribers: **Only the topic owner**
->- Click "Create Topic"
+>   - Publishers: **Only the topic owner**
+>   - Subscribers: **Only the topic owner**
+> - Click "Create Topic"
 >
->### Step 2- Create the Email Subscription
->- In the dashboard for your new topic under "Details," copy the ARN and send it to your user
->- Select "Create subscription"
->- Protocol: **Email**
->- Endpoint: **Email address of user's choice**
->- Click "Create subscription"
->- Make sure the user gets an email from AWS asking to confirm the subscription, and have them confirm it
+> ### Step 2- Create the Email Subscription
+> - In the dashboard for your new topic under "Details," copy the ARN and send it to your user
+> - Select "Create subscription"
+> - Protocol: **Email**
+> - Endpoint: **Email address of user's choice**
+> - Click "Create subscription"
+> - Make sure the user gets an email from AWS asking to confirm the subscription, and have them confirm it
 
 # Making Sure Everything Works
 >
