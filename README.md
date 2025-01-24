@@ -5,7 +5,7 @@ This script will look for updates to the Batch.txt logfile for monitoring the pr
 
 ## Step 1- Set up AWS User account
 First, you will need an AWS User with the correct permissions and Access Policy. Contact Thomas (thomas.ward@boystown.org) or your own admin to get this set up, **don't make this on your own.**
-These instructions for admins can be found in the [AdminOnboardingInstructions.md file](https://github.com/tward-3/BESABatchMonitor/blob/main/AdminOnboardingInstructions.md)
+These instructions for admins can be found in the [AdminOnboardingInstructions file](https://github.com/tward-3/BESABatchMonitor/blob/main/AdminOnboardingInstructions.md)
 
 ## Step 2- Install PowerShell7
 Next, you will need to install **PowerShell 7**. To do this, run this command in the **command prompt**:
